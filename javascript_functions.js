@@ -27,7 +27,7 @@ function countVowels(str) {
     const vowels = "aeiouAEIOU";
     return str.split("").filter(char => vowels.includes(char)).length;
 }
-console.log(`Output: ${countVowels("Goodbye ")}`);
+console.log(`Output the amount of vowels found: ${countVowels("Goodbye Everyone!")}`);
 
 // Create function that takes a number and returns true if the number is prime, and false otherwise
 function isPrime(num) {
